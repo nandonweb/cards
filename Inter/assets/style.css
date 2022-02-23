@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #494949;
+}
+
+@font-face {
+    font-family: colocar aqui;
+    src: url();
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background: #686963;
+
+}
+
+.card {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 780px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #FF4F00;
+    color: white;
+}
+
+.card .logo {
+    position: absolute;
+    top: 80px;
+    left: 269px;
+    width: 255px;
+    height: 86px;
+}
+
+.gold {
+    position: absolute;
+    top: 15px;
+    right: 22px;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.chip {
+    position: absolute;
+    left: 65px;
+    bottom: 230px;
+    width: 86px;
+    height: 66px;
+}
+
+h2,h3 {
+    text-shadow: 3px 3px black;
+}
+
+.num {
+    position: relative;
+    top: 55px;
+    left: 42px;
+    padding-left: 32px;
+    font-size: 45px;
+}
+
+.num_2 {
+    position: absolute;
+    bottom: 102px;
+    left: 80px;
+    font-size: 13px;
+}
+
+.validade {
+    position: absolute;
+    bottom: 90px;
+    left: 255px;
+    font-size: 13px;
+}
+
+.validade2 {
+    position: absolute;
+    bottom: 90px;
+    left: 293px;
+    font-size: 30px;
+}
+
+.nome {
+  position: absolute;
+  bottom: 28px;
+  left: 78px;
+  font-size: 30px;
+  text-shadow: 3px 3px black;
+}
+
+.mastercard {
+  position: absolute;
+  width: 192px;
+  height: 122px;
+  bottom: 16px;
+  right: -8px;
+}
